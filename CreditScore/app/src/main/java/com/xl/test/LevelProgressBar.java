@@ -60,6 +60,7 @@ public class LevelProgressBar extends ProgressBar {
         super(context, attrs, defStyleAttr);
         obtainStyledAttributes(attrs);
         initPaint();
+        Log.d("LevelProgressBar", "LevelProgressBar: ");
     }
 
     //初始化画笔
@@ -88,7 +89,14 @@ public class LevelProgressBar extends ProgressBar {
     }
 
     @Override
+    protected void onSizeChanged(int w, int h, int oldw, int oldh) {
+        Log.d("LevelProgressBar", "onSizeChanged: ");
+        super.onSizeChanged(w, h, oldw, oldh);
+    }
+
+    @Override
     protected synchronized void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
+        Log.d("LevelProgressBar", "onMeasure: ");
         int w = MeasureSpec.getSize(widthMeasureSpec);
         int h = MeasureSpec.getSize(heightMeasureSpec);
         int hm = MeasureSpec.getMode(heightMeasureSpec);

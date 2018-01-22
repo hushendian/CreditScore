@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.xl.test.FlikerProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:paddingTop="20dp"
+        app:FlikerProgressBar="2dp"
+        app:FlikerProgressBarHeight="20dp"
+        app:borderWidth="1dp"
+        app:loadingColor="#40c4ff"
+        app:radius="8dp"
+        app:stopColor="#ff9800"
+        app:textSize="12sp" />
+</LinearLayout>

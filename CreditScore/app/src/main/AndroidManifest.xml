@@ -9,17 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".LevelActivity">
+        <activity android:name=".FlikerProgressbarActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".MainActivity"
-            android:configChanges="keyboardHidden|screenSize|navigation|orientation"
-            android:screenOrientation="portrait" />
+        <!--<activity-->
+            <!--android:name=".MainActivity"-->
+            <!--android:configChanges="keyboardHidden|screenSize|navigation|orientation"-->
+            <!--android:screenOrientation="portrait" />-->
+        <!--<activity-->
+            <!--android:name=".LevelActivity"-->
+            <!--android:configChanges="keyboardHidden|screenSize|navigation|orientation"-->
+            <!--android:screenOrientation="portrait" />-->
     </application>
 
 </manifest>

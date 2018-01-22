@@ -10,6 +10,7 @@ import android.graphics.Path;
 import android.graphics.Point;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
+import android.util.Log;
 import android.view.View;
 
 /**
@@ -91,6 +92,7 @@ public class CreditScoreView extends View {
 
     @Override
     protected void onSizeChanged(int w, int h, int oldw, int oldh) {
+        Log.d(TAG, "onSizeChanged: "+w+"----"+h+"-----"+oldw+"-----"+oldh);
         radius = Math.min(h, w) /2 * 0.5f;
         centerX = w / 2;
         centerY = h / 2;

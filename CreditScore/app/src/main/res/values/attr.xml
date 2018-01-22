@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!--变色进度条-->
     <declare-styleable name="LevelProgressBar">
         <attr name="LevelTextSize" format="dimension" />
         <attr name="LevelTextChooseColor" format="color" />
@@ -8,5 +9,26 @@
         <attr name="ProgressBarEndColor" format="color" />
         <attr name="ProgressBarBGColor" format="color" />
         <attr name="progressBraHeight" format="dimension" />
+    </declare-styleable>
+
+    <!-- 芝麻分数-->
+    <declare-styleable name="ZMScore">
+        <attr name="maxScore" format="integer" />
+        <attr name="minScore" format="integer" />
+        <attr name="brokenLineColor" format="color" />
+        <attr name="straightLineColor" format="color" />
+        <attr name="textNormalColor" format="color" />
+        <attr name="brokenLineWith" format="dimension" />
+    </declare-styleable>
+
+    <!-- 仿360下载-->
+    <declare-styleable name="FlikerProgressBar">
+        <attr name="textSize" format="dimension" />
+        <attr name="loadingColor" format="color" />
+        <attr name="stopColor" format="color" />
+        <attr name="radius" format="dimension"/>
+        <attr name="borderWidth" format="dimension"/>
+        <attr name="FlikerProgressBar" format="dimension" />
+        <attr name="FlikerProgressBarHeight" format="dimension" />
     </declare-styleable>
 </resources>

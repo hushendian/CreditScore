@@ -48,4 +48,5 @@
         app:ProgressBarEndColor="#00ff00"
         app:progressBraHeight="10dp"
         />
+
 </RelativeLayout>
